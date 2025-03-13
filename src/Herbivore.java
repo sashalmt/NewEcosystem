@@ -201,4 +201,5 @@ public class Herbivore extends Species {
         int childY = this.y + random.nextInt(21) - 10;
         return new Herbivore(childX, childY, childGenome);
     }
+        
 }
